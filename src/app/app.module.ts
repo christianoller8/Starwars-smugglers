@@ -11,6 +11,7 @@ import { PlanetsComponent } from "./features/pages/planets/planets.component";
 
 import { NavigationService } from "./core/services/navigation.service";
 import { DataCharactersService } from "./core/services/data-characters.service";
+import { CharacteristicsComponent } from "./features/pages/characteristics/characteristics.component";
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { DataCharactersService } from "./core/services/data-characters.service";
     CharactersComponent,
     ShipsComponent,
     PlanetsComponent,
+    CharacteristicsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [NavigationService, DataCharactersService],

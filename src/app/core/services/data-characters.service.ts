@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { Character } from "../models/character.interface";
+import { Observable, of } from "rxjs";
 
 @Injectable({
   providedIn: "root",
@@ -90,5 +91,10 @@ export class DataCharactersService {
 
   getCharacters(): Character[] {
     return this.characters;
+  }
+
+  getCharacter(id: number): Observable<Character> {
+    const character = this.characters.find((h) => h.id === id)!;
+    return of(character);
   }
 }
