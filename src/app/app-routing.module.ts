@@ -6,6 +6,7 @@ import { CharactersComponent } from "./features/pages/characters/characters.comp
 import { ShipsComponent } from "./features/pages/ships/ships.component";
 import { PlanetsComponent } from "./features/pages/planets/planets.component";
 import { CharacteristicsComponent } from "./features/pages/characteristics/characteristics.component";
+import { PagenotfoundComponent } from "./features/pages/pagenotfound/pagenotfound.component";
 
 const routes: Routes = [
   {
@@ -74,6 +75,10 @@ const routes: Routes = [
         ],
       },
     ],
+  },
+  {
+    path: "**",
+    component: PagenotfoundComponent,
   },
 ];
 

@@ -21,6 +21,7 @@ import { HeaderComponent } from "./core/components/header/header.component";
 
 import { BreadcrumbComponent } from "./core/components/breadcrumb/breadcrumb.component";
 import { ChristFooterModule } from "christ-footer";
+import { PagenotfoundComponent } from "./features/pages/pagenotfound/pagenotfound.component";
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ChristFooterModule } from "christ-footer";
     CharacteristicsComponent,
     HeaderComponent,
     BreadcrumbComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,
