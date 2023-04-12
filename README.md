@@ -168,11 +168,15 @@ This footer is responsive so we can see it well in different screen sizes
 
 ![404-Page](./src/assets/images/screenshot-404.jpg)
 
+#### Responsive
+
+![Responsive-Page](./src/assets/images/screenshot-resp.jpg)
+
 ## Deploy 📦
 
 ### Deployed on Vercel
 
-https://ormon-christianoller8.vercel.app/
+https://exam1-three.vercel.app/
 
 ### Responsive version
 
