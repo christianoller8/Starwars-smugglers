@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="src/assets/logo.png" alt="logo" width="400"></img>
+  <img src="src/assets/images/logo.png" alt="logo" width="400"></img>
   <br>
 </h1>
 <p align="center">
@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
 </p>
 
-# Tittle
+# Star Wars Exam
 
 ## About Project 🚀
 
@@ -17,7 +17,7 @@ This project corresponds to the first review of the Vueling University. It focus
 
 The goal is to create an application in which components are created, communicate with each other, use services, interfaces, interceptors and incorporate buttons to move forward and backward while displaying breadcrums. Also show all the information of the application in an orderly manner, with harmony both information and image and colors, and that is responsive to other devices.
 
-This project ................
+This project is about the smuggler characters of the Star Wars saga. In it we will show an initial welcome page in which we can access the 4 most famous smuggler characters and then we can enter each of them to see both their characteristics, planet and own ships.
 
 I hope you enjoy seeing it as much as I enjoyed creating it, thank you very much, best regards!
 
@@ -35,10 +35,10 @@ Visual Studio Code
 
 ```bash
 # Clone this repository
-$ git clone + <githubUrl>
+$ git clone + https://github.com/christianoller8/exam1.git
 
 # Go into the repository
-$ cd <project-name>
+$ cd exam1
 
 # Install dependencies
 $ npm install

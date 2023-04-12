@@ -22,12 +22,14 @@
       <input
         class="form-control me-2"
         type="search"
-        placeholder="Search"
+        placeholder="{{ 'buscar' | translate }}"
         aria-label="Search"
       />
-      <button class="btn btn-danger" type="submit">Buscar</button>
-      <button class="btn btn-danger" (click)="navigation.goBack()">
-        Atras
+      <button class="btn btn-dark" type="submit">
+        {{ "buscar" | translate }}
+      </button>
+      <button class="btn btn-dark" (click)="navigation.goBack()">
+        {{ "atras" | translate }}
       </button>
     </form>
   </div>

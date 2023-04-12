@@ -7,8 +7,9 @@ import { AppComponent } from "./app.component";
 
 import { WelcomePageComponent } from "./features/pages/welcome-page/welcome-page.component";
 import { CharactersComponent } from "./features/pages/characters/characters.component";
-import { ShipsComponent } from "./features/pages/ships/ships.component";
+import { CharacteristicsComponent } from "./features/pages/characteristics/characteristics.component";
 import { PlanetsComponent } from "./features/pages/planets/planets.component";
+import { ShipsComponent } from "./features/pages/ships/ships.component";
 
 import { TranslateLoader, TranslateModule } from "@ngx-translate/core";
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
@@ -16,7 +17,7 @@ import { HttpClient, HttpClientModule } from "@angular/common/http";
 
 import { NavigationService } from "./core/services/navigation.service";
 import { DataCharactersService } from "./core/services/data-characters.service";
-import { CharacteristicsComponent } from "./features/pages/characteristics/characteristics.component";
+
 import { HeaderComponent } from "./core/components/header/header.component";
 
 import { BreadcrumbComponent } from "./core/components/breadcrumb/breadcrumb.component";
@@ -28,9 +29,9 @@ import { PagenotfoundComponent } from "./features/pages/pagenotfound/pagenotfoun
     AppComponent,
     WelcomePageComponent,
     CharactersComponent,
-    ShipsComponent,
-    PlanetsComponent,
     CharacteristicsComponent,
+    PlanetsComponent,
+    ShipsComponent,
     HeaderComponent,
     BreadcrumbComponent,
     PagenotfoundComponent,

@@ -1,5 +1,5 @@
 <body>
-  <h2>Nave principal de {{ character.name }}</h2>
+  <h2>{{ "navePrincipal" | translate }} {{ character.name }}</h2>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -15,32 +15,29 @@
         <table class="table table-dark table-striped-columns">
           <thead>
             <tr>
-              <th>Concepto</th>
-              <th>Datos</th>
+              <th>{{ "concepto" | translate }}</th>
+              <th>{{ "datos" | translate }}</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Clase</td>
+              <td>{{ "clase" | translate }}</td>
               <td>{{ character.shipClass }}</td>
             </tr>
             <tr>
-              <td>Modelo</td>
+              <td>{{ "modelo" | translate }}</td>
               <td>{{ character.shipModel }}</td>
             </tr>
             <tr>
-              <td>Hiperpropulsión</td>
+              <td>{{ "hiperpropulsion" | translate }}</td>
               <td>{{ character.shipHiper }}</td>
             </tr>
             <tr>
-              <td>Num. pasajeros/td></td>
+              <td>{{ "pasajeros" | translate }}</td>
               <td>{{ character.shipPassagers }}</td>
             </tr>
           </tbody>
         </table>
-        <button routerLink="/ships" type="button" class="btn btn-dark">
-          Nave
-        </button>
       </div>
     </div>
   </div>

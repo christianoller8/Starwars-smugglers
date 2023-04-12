@@ -1,6 +1,5 @@
-<
 <body>
-  <h2>Principales características de {{ character.name }}</h2>
+  <h2>{{ "principalesCaracteristicas" | translate }} {{ character.name }}</h2>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -16,31 +15,35 @@
         <table class="table table-dark table-striped-columns">
           <thead>
             <tr>
-              <th>Concepto</th>
-              <th>Datos</th>
+              <th>{{ "concepto" | translate }}</th>
+              <th>{{ "datos" | translate }}</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Planeta</td>
+              <td>{{ "planeta" | translate }}</td>
               <td>{{ character.planet }}</td>
             </tr>
             <tr>
-              <td>Nacimiento</td>
+              <td>{{ "nacimiento" | translate }}</td>
               <td>{{ character.birth }}</td>
             </tr>
             <tr>
-              <td>Muerte</td>
+              <td>{{ "muerte" | translate }}</td>
               <td>{{ character.death }}</td>
             </tr>
             <tr>
-              <td>Especie</td>
+              <td>{{ "especie" | translate }}</td>
               <td>{{ character.species }}</td>
             </tr>
           </tbody>
         </table>
-        <button routerLink="/planets" type="button" class="btn btn-dark">
-          Planeta
+        <button
+          routerLink="{{ character.id }}/planets"
+          type="button"
+          class="btn btn-dark"
+        >
+          {{ "planeta" | translate }}
         </button>
       </div>
     </div>
