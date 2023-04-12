@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
 import { DataCharactersService } from "src/app/core/services/data-characters.service";
 import { Character } from "src/app/core/models/character.interface";
+import { NavigationService } from "src/app/core/services/navigation.service";
 
 @Component({
   selector: "app-characteristics",
@@ -13,7 +14,8 @@ export class CharacteristicsComponent implements OnInit {
 
   constructor(
     private dataCharacters: DataCharactersService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
+    public navigation: NavigationService
   ) {}
 
   ngOnInit() {

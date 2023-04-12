@@ -1,5 +1,5 @@
 <body>
-  <h2>Planeta principal de {{ character.name }}</h2>
+  <h2>{{ "planetaPrincipal" | translate }} {{ character.planetRegion }}</h2>
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -15,31 +15,35 @@
         <table class="table table-dark table-striped-columns">
           <thead>
             <tr>
-              <th>Concepto</th>
-              <th>Datos</th>
+              <th>{{ "concepto" | translate }}</th>
+              <th>{{ "datos" | translate }}</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Región</td>
+              <td>{{ "region" | translate }}</td>
               <td>{{ character.planetRegion }}</td>
             </tr>
             <tr>
-              <td>Sistema</td>
+              <td>{{ "sistema" | translate }}</td>
               <td>{{ character.planetSystem }}</td>
             </tr>
             <tr>
-              <td>Soles</td>
+              <td>{{ "soles" | translate }}</td>
               <td>{{ character.planetSuns }}</td>
             </tr>
             <tr>
-              <td>Lunas</td>
+              <td>{{ "lunas" | translate }}</td>
               <td>{{ character.planetMoons }}</td>
             </tr>
           </tbody>
         </table>
-        <button routerLink="/ships" type="button" class="btn btn-dark">
-          Nave
+        <button
+          routerLink="{{ character.id }}/ships"
+          type="button"
+          class="btn btn-dark"
+        >
+          {{ "nave" | translate }}
         </button>
       </div>
     </div>
