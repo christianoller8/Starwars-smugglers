@@ -24,7 +24,9 @@ I hope you enjoy seeing it as much as I enjoyed creating it, thank you very much
 ### Prerequisites 📋
 
 This project was generated with Angular CLI version 15.2.3.
+
 This project was generated with Node version 18.15.0
+
 This project was generated with NPM version 9.5.0
 
 ### Build with 🛠️
