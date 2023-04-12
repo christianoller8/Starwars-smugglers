@@ -48,9 +48,9 @@ const routes: Routes = [
                 component: CharacteristicsComponent,
               },
               {
-                path: "ships",
+                path: "planets",
                 data: {
-                  breadcrumb: "Ships",
+                  breadcrumb: "Planets",
                 },
                 children: [
                   {
@@ -58,14 +58,14 @@ const routes: Routes = [
                     data: {
                       breadcrumb: null,
                     },
-                    component: ShipsComponent,
+                    component: PlanetsComponent,
                   },
                   {
-                    path: "planets",
+                    path: "ships",
                     data: {
-                      breadcrumb: "Planets",
+                      breadcrumb: "Ships",
                     },
-                    component: PlanetsComponent,
+                    component: ShipsComponent,
                   },
                 ],
               },

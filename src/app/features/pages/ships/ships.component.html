@@ -1,0 +1,47 @@
+<body>
+  <h2>Nave principal de {{ character.name }}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="col card">
+          <img
+            class="img-fluid"
+            src="{{ character.imageShip }}"
+            alt="{{ character.name }}"
+          />
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <table class="table table-dark table-striped-columns">
+          <thead>
+            <tr>
+              <th>Concepto</th>
+              <th>Datos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Clase</td>
+              <td>{{ character.shipClass }}</td>
+            </tr>
+            <tr>
+              <td>Modelo</td>
+              <td>{{ character.shipModel }}</td>
+            </tr>
+            <tr>
+              <td>Hiperpropulsión</td>
+              <td>{{ character.shipHiper }}</td>
+            </tr>
+            <tr>
+              <td>Num. pasajeros/td></td>
+              <td>{{ character.shipPassagers }}</td>
+            </tr>
+          </tbody>
+        </table>
+        <button routerLink="/ships" type="button" class="btn btn-dark">
+          Nave
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
