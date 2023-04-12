@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(to bottom, #333130, #e6e3e3);
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: #000000;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: #020202;
+}
+
+img {
+  width: 40%;
+  height: 70%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(224, 221, 24);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px;
+}
