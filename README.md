@@ -180,7 +180,7 @@ https://exam1-three.vercel.app/
 
 ### Responsive version
 
-https://ui.dev/amiresponsive?url=https://ormon-christianoller8.vercel.app/
+https://ui.dev/amiresponsive?url=https://exam1-three.vercel.app/
 
 ### Autor ✒️
 
