@@ -4,11 +4,11 @@ import { DataCharactersService } from "src/app/core/services/data-characters.ser
 import { Character } from "src/app/core/models/character.interface";
 
 @Component({
-  selector: "app-ships",
-  templateUrl: "./ships.component.html",
-  styleUrls: ["./ships.component.scss"],
+  selector: "app-characteristics",
+  templateUrl: "./characteristics.component.html",
+  styleUrls: ["./characteristics.component.scss"],
 })
-export class ShipsComponent implements OnInit {
+export class CharacteristicsComponent implements OnInit {
   character: Character = {} as Character;
 
   constructor(
