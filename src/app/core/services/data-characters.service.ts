@@ -9,7 +9,7 @@ export class DataCharactersService {
     {
       id: 1,
       name: "Cade Skywalker",
-      image: "",
+      image: "./../../../assets/images/characters/cadeskywalker.jpg",
       planet: "Skywalker Planet",
       birth: "116 DBY",
       death: "-",
@@ -29,7 +29,7 @@ export class DataCharactersService {
     {
       id: 2,
       name: "Chewbacca",
-      image: "",
+      image: "./../../../assets/images/characters/chewbacca.png",
       planet: "Kashyyyk",
       birth: "100 ABY",
       death: "200 BDY",
@@ -49,7 +49,7 @@ export class DataCharactersService {
     {
       id: 3,
       name: "Han Solo",
-      image: "",
+      image: "./../../../assets/images/characters/hansolo.png",
       planet: "Corellia",
       birth: "29 ABY",
       death: "",
@@ -69,7 +69,7 @@ export class DataCharactersService {
     {
       id: 4,
       name: "Mara Skywalker",
-      image: "",
+      image: "./../../../assets/images/characters/maraskywalker.jpg",
       planet: "Coruscant",
       birth: "17 ABY",
       death: "40 DBY",
