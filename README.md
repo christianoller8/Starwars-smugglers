@@ -101,6 +101,14 @@ The configured scripts that may be useful to you are the following:
 
 ```
 
+### Method of work ✏️
+
+For this project I have implemented the branch work methodology, which consists of not committing or pushing directly to the master branch.
+The idea of this methodology is to work with a feature branch, creating and closing issues in the github project through pull requests, which in this case are accepted by me, but it is useful for the verification of the work and the possible combination of others by being able to make parallel branches and make pull requests.
+I used SourceTree as a tool to manage the branches and the commits, which I find very useful and easy to use.
+
+![Sourcetree](./src/assets/images/git-work.jpg)
+
 ### Notion 📖
 
 As an organizational tool to store my tutorials, my examples, my documentation and in general everything related to this and all my projects I have used Notion.
@@ -132,25 +140,33 @@ This footer is responsive so we can see it well in different screen sizes
 
 ## Mockups 🎨
 
-<img src="src/assets/mockup.jpg" width="450" >
+<img src="src/assets/images/mockup.jpg" width="450" >
 
 ## Final Result
 
 #### Home Page
 
-![Home-Page](./src/assets/screenshot1.png)
+![Welcome-Page](./src/assets/images/screenshot-welcome.jpg)
 
-#### Second Page
+#### Characters Page
 
-![Second-Page](./src/assets/screenshot2.png)
+![Characters-Page](./src/assets/images/screenshot-characters.jpg)
 
-#### Third Page
+#### Characteristics Page
 
-![Thrid-Page](./src/assets/screenshot3.png)
+![Characteristics-Page](./src/assets/images/screenshot-characteristics.jpg)
 
-#### Header
+#### Planet Page
 
-![Header-Page](./src/assets/screenshot4.png)
+![Planet-Page](./src/assets/images/screenshot-planet.jpg)
+
+#### Ship Page
+
+![Ship-Page](./src/assets/images/screenshot-ship.jpg)
+
+#### Page Not Found Page
+
+![404-Page](./src/assets/images/screenshot-404.jpg)
 
 ## Deploy 📦
 

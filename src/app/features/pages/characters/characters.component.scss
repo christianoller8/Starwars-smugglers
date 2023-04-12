@@ -28,3 +28,11 @@ h2 {
   padding: 0px;
   margin: 5px;
 }
+
+.character-image {
+  filter: grayscale(100%);
+  transition: filter 0.5s;
+}
+.character-image:hover {
+  filter: grayscale(0%);
+}
