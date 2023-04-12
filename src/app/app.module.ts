@@ -20,6 +20,7 @@ import { CharacteristicsComponent } from "./features/pages/characteristics/chara
 import { HeaderComponent } from "./core/components/header/header.component";
 
 import { BreadcrumbComponent } from "./core/components/breadcrumb/breadcrumb.component";
+import { ChristFooterModule } from "christ-footer";
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { BreadcrumbComponent } from "./core/components/breadcrumb/breadcrumb.com
   ],
   imports: [
     BrowserModule,
+    ChristFooterModule,
     AppRoutingModule,
     BreadcrumbModule,
     HttpClientModule,
